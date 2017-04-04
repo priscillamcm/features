@@ -1,0 +1,16 @@
+name = Features1
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = number
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_imagen
+features[field_base][] = field_isbn
+features[field_instance][] = node-libros-body
+features[field_instance][] = node-libros-field_imagen
+features[field_instance][] = node-libros-field_isbn
+features[node][] = libros
+project path = sites/all/modules/features 
