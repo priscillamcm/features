@@ -50,12 +50,12 @@ function features1_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => -4,
+      'weight' => 31,
     ),
   );
 
-  // Exported field_instance: 'node-libros-field_imagen'.
-  $field_instances['node-libros-field_imagen'] = array(
+  // Exported field_instance: 'node-libros-field_imagen3'.
+  $field_instances['node-libros-field_imagen3'] = array(
     'bundle' => 'libros',
     'deleted' => 0,
     'description' => '',
@@ -77,10 +77,11 @@ function features1_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'node',
-    'field_name' => 'field_imagen',
+    'field_name' => 'field_imagen3',
     'label' => 'imagen',
-    'required' => FALSE,
+    'required' => 0,
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
@@ -93,13 +94,14 @@ function features1_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'image',
       'settings' => array(
         'preview_image_style' => 'thumbnail',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => -3,
+      'weight' => 32,
     ),
   );
 
@@ -132,7 +134,7 @@ function features1_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_isbn',
     'label' => 'ISBN',
-    'required' => 0,
+    'required' => FALSE,
     'settings' => array(
       'max' => '',
       'min' => '',
@@ -141,11 +143,10 @@ function features1_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'active' => 0,
       'module' => 'number',
       'settings' => array(),
       'type' => 'number',
-      'weight' => -2,
+      'weight' => 33,
     ),
   );
 
